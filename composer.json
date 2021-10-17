@@ -1,0 +1,41 @@
+{
+    "name": "davaxi/ghost",
+    "description": "A PHP client library for accessing Ghost's APIs",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "ghost",
+        "php",
+        "api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Patiashvili",
+            "email": "stratagem.david@gmail.com",
+            "homepage": "https://www.linkedin.com/in/davaxi/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/davaxi/Ghost/issues",
+        "source": "https://github.com/davaxi/Ghost/releases"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "firebase/php-jwt": "^5.4",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "dev-master",
+        "phpunit/php-code-coverage": "^3.3.0",
+        "phpunit/phpunit": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davaxi\\": "src/"
+        }
+    }
+}
