@@ -24,7 +24,6 @@ class GhostContentTest extends GhostPHPUnit
 
         $service = new Settings($client);
         $result = $service->get();
-        var_dump($result);
         $this->assertArrayHasKey('settings', $result);
     }
 
