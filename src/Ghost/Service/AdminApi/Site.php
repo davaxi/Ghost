@@ -8,7 +8,7 @@ use Davaxi\Ghost\Service\AdminApi;
 
 class Site extends AdminApi
 {
-    const BASE_URL = '{url}/ghost/api/{version}/admin/site{path}';
+    const BASE_URL = '{url}/ghost/api/admin/site{path}';
 
     /**
      * @return mixed

@@ -1,5 +1,7 @@
 # Ghost
-A PHP client library for accessing Ghost's APIs
+A PHP client library for accessing Ghost's APIs (for Ghost >= 5.0)
+
+For Ghost < 5.0, use version [1.0.0](https://github.com/davaxi/Ghost/tree/1.0.0) of project.
 
 [![Latest Stable Version](https://poser.pugx.org/davaxi/ghost/v/stable)](https://packagist.org/packages/davaxi/ghost)
 [![Total Downloads](https://poser.pugx.org/davaxi/ghost/downloads)](https://packagist.org/packages/davaxi/ghost)

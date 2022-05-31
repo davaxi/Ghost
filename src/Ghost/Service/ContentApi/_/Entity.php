@@ -24,7 +24,6 @@ Trait Entity
                 'formats' => 'mobiledoc',
                 'filter' => '',
                 'limit' => static::DEFAULT_LIMIT,
-                'page' => 0,
                 'order' => '',
             ],
             $params

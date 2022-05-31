@@ -11,7 +11,7 @@ class Posts extends AdminApi
     use AdminApi\_\Entity;
 
     const SERVICE_KEY = 'posts';
-    const BASE_URL = '{url}/ghost/api/{version}/admin/posts{path}';
+    const BASE_URL = '{url}/ghost/api/admin/posts{path}';
 
     /**
      * https://ghost.org/docs/admin-api/#updating-a-post

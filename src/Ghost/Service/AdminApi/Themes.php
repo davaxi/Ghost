@@ -7,7 +7,7 @@ use Davaxi\Ghost\Exception\InvalidParamsException;
 
 class Themes extends Posts
 {
-    const BASE_URL = '{url}/ghost/api/{version}/admin/themes{path}';
+    const BASE_URL = '{url}/ghost/api/admin/themes{path}';
 
     /**
      * @param string $zipPath

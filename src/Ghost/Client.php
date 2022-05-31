@@ -8,7 +8,7 @@ namespace Davaxi\Ghost;
  */
 class Client
 {
-    const API_VERSION = 'v4';
+    const API_VERSION = 'v5.0';
 
     const ENV_API_URL = 'GHOST_API_URL';
     const ENV_CONTENT_API_KEY = 'GHOST_CONTENT_API_KEY';

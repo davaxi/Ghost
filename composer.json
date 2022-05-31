@@ -1,7 +1,7 @@
 {
     "name": "davaxi/ghost",
     "description": "A PHP client library for accessing Ghost's APIs",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "type": "library",
     "keywords": [
         "ghost",

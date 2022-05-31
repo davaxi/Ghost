@@ -8,7 +8,7 @@ use Davaxi\Ghost\Service\AdminApi;
 
 class Images extends AdminApi
 {
-    const BASE_URL = '{url}/ghost/api/{version}/admin/images{path}';
+    const BASE_URL = '{url}/ghost/api/admin/images{path}';
 
     # https://ghost.org/docs/admin-api/#the-post-object
     const AVAILABLE_PURPOSES = [

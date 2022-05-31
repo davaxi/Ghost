@@ -13,7 +13,7 @@ use Davaxi\Ghost\Exception\MissingConfigurationException;
 abstract class Service
 {
     const DEFAULT_LIMIT = 15;
-    const BASE_URL = '{url}/ghost/api/{version}{path}';
+    const BASE_URL = '{url}/ghost/api/{path}';
 
     /**
      * @var Client

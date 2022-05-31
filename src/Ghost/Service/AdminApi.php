@@ -14,7 +14,7 @@ use Firebase\JWT\JWT;
  */
 class AdminApi extends Service
 {
-    const BASE_URL = '{url}/ghost/api/{version}/admin{path}';
+    const BASE_URL = '{url}/ghost/api/admin{path}';
 
     /**
      * AdminApi constructor.

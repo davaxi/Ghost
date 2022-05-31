@@ -9,6 +9,6 @@ class Webhooks extends AdminApi
     use AdminApi\_\Entity;
 
     const SERVICE_KEY = 'webhooks';
-    const BASE_URL = '{url}/ghost/api/{version}/admin/webhooks{path}';
+    const BASE_URL = '{url}/ghost/api/admin/webhooks{path}';
 
 }

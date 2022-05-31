@@ -13,7 +13,7 @@ use Davaxi\Ghost\Service;
  */
 class ContentApi extends Service
 {
-    const BASE_URL = '{url}/ghost/api/{version}/content{path}';
+    const BASE_URL = '{url}/ghost/api/content{path}';
 
     /**
      * AdminApi constructor.

@@ -8,5 +8,5 @@ class Posts extends ContentApi
 {
     use ContentApi\_\Entity;
 
-    const BASE_URL = '{url}/ghost/api/{version}/content/posts{path}';
+    const BASE_URL = '{url}/ghost/api/content/posts{path}';
 }

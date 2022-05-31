@@ -8,7 +8,7 @@ use Davaxi\Ghost\Service\ContentApi;
 
 class Settings extends ContentApi
 {
-    const BASE_URL = '{url}/ghost/api/{version}/content/settings{path}';
+    const BASE_URL = '{url}/ghost/api/content/settings{path}';
 
     /**
      * @return mixed

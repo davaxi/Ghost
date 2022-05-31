@@ -8,5 +8,5 @@ class Tags extends ContentApi
 {
     use ContentApi\_\Entity;
 
-    const BASE_URL = '{url}/ghost/api/{version}/content/tags{path}';
+    const BASE_URL = '{url}/ghost/api/content/tags{path}';
 }
